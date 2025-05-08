@@ -1,5 +1,9 @@
 # BFI-chan
 
+> [!NOTE]  
+> this is a school project
+
+
 ## quick Install
 
 ```shell
