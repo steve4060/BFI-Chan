@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import './Banner.css';
 
 function Banner() {
     return (
