@@ -1,4 +1,4 @@
-# BFI-Chan
+# BFI-chan
 
 <center>
     <img src="./public/logo.png">
