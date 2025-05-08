@@ -1,4 +1,4 @@
-# BFI-chan
+# BFI-Chan
 
 > [!NOTE]  
 > this is a school project
