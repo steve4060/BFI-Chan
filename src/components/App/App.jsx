@@ -1,6 +1,6 @@
 import Menu from '../Menu/Menu';
 import Banner from '../Banner/Banner';
-import 'App.css';
+import './App.css';
 
 function App() {
     return (
