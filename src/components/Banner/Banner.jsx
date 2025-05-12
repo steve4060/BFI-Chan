@@ -4,7 +4,7 @@ import './Banner.css';
 function Banner() {
     return (
         <>
-            <div>
+            <div className="banner">
                 <img src={logo} className='logo' />
                 <h1>Banner</h1>
             </div>

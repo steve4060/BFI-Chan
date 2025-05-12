@@ -1,5 +1,20 @@
+div.banner {
+    position: relative;
+    background-color: #ddaa18;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bord_name{
+    
+}
 
 .logo {
     height: 100px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
     transform: rotate(-10deg);
 }
