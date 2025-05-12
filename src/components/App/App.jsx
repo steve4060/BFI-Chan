@@ -1,20 +1,17 @@
-import Menu from '../Menu/Menu';
+import {useParams} from 'react-router';
 import Banner from '../Banner/Banner';
-import LandingPage from '../LandingPage/LandingPage';
-import { BrowserRouter, Routes, Route} from 'react-router';
+import Menu from '../Menu/Menu';
+import Boards from '../Boards/Boards';
 import './App.css';
 
 function App() {
+    let params = useParams();
     return (
         <>
             <div>
-                <Banner />
+                <Banner boards={params.board} />
                 <Menu />
-                <BrowserRouter>
-                    <Routes>
-                        <Route index element={<LandingPage />} />
-                    </Routes>
-                </BrowserRouter>
+                <Boards />
             </div>
         </>
     )
