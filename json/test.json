@@ -1,10 +1,16 @@
-[
-    {
-        'id': 1,
-        'name': 'Test'
-    },
-    {
-        'Name': 'Test2',
-        'id': 2
-    },
-]
+{
+    "boards": [
+        {
+            "id": 1, 
+            "title": "Random", 
+            "short_hand": "b", 
+            "desc": "This is for every topic witch dosn't have an own Board"
+        },
+        {
+            "id": 2, 
+            "title": "School", 
+            "short_hand": "sch",
+            "desc": "This is a Board for School topics"
+        }
+    ]
+}
