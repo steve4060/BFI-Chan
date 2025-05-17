@@ -1,4 +1,5 @@
 import './LandingPage.css';
+import Boardcard from '../Boardcard/Boardcard'
 
 function LandingPage() {
     return (
