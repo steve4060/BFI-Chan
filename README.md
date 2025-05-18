@@ -7,6 +7,9 @@
 > [!NOTE]  
 > this is a school project
 
+## Font
+this font is from [Nerdfonts](https://www.nerdfonts.com/)
+
 ## json Server
 
 ```shell

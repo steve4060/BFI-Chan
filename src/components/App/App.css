@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Iosevka;
+    src: url(font/IosevkaNerdFontMono-Regular.ttf);
+}
+
 body {
+    font-family: Iosevka;
     background-color: #ddaa18;
 }
