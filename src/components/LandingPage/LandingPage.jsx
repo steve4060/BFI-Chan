@@ -22,7 +22,7 @@ function httpGet(url) {
 
 function LandingPage() {
 
-    const boards = http_get_as_json(host(true) + "boards");
+    const boards = http_get_as_json(host("Thorin") + "boards");
 
     return (
         <>

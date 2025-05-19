@@ -1,0 +1,16 @@
+div.menu {
+    position: relative;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.menu {
+    display: inline;
+}
+
+p.menu:after {
+    content:"\a";
+    white-space: pre;
+}
