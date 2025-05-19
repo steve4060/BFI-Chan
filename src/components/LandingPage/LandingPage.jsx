@@ -29,9 +29,9 @@ function LandingPage() {
             <div>
                 <h1>Landing Page</h1>
                 <div className="card">
-                    <h5 className="card-header">Featured</h5>
+                    <h5 className="card-header">Was ist BFI-chan?</h5>
                     <div className="card-body">
-                        <p className="card-text">Was ist BFI-chan?</p>
+                        <p className="card-text">Erklärtext...</p>
                     </div>
                 </div>
                 <div className="card text-center">

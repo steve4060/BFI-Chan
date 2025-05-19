@@ -11,6 +11,30 @@
             "title": "School", 
             "short_hand": "sch",
             "desc": "This is a Board for School topics"
+        },
+        {
+            "id": 3, 
+            "title": "Tiere", 
+            "short_hand": "t",
+            "desc": "This is a Board for Animals"
+        },
+        {
+            "id": 4, 
+            "title": "Technik", 
+            "short_hand": "tec",
+            "desc": "This is a Board for Technical topics"
+        },
+        {
+            "id": 5, 
+            "title": "Test1", 
+            "short_hand": "x",
+            "desc": "This is a Board for X topics"
+        },
+        {
+            "id": 6, 
+            "title": "Test2", 
+            "short_hand": "y",
+            "desc": "This is a Board for Y topics"
         }
     ]
 }
