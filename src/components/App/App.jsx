@@ -9,6 +9,7 @@ import './App.css';
 function App() {
     const params = useParams();
     const url = host(true) + "boards?short_hand=" + params.board;
+    console.log(url);
     const bord = http_get_as_json(url);
     const error = "Board " + params.board + " dos't exist";
     const fof = bord.length === 0;
