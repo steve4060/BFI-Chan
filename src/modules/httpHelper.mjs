@@ -11,6 +11,6 @@ export function http_get_as_json(url) {
 
 export function host(bool) {
     if (bool == "Thorin") return "https://ominous-space-carnival-499xxjrrg77f5754-8000.app.github.dev/";
-    if (bool == "Banjamin")
+    if (bool == "Benjamin") return "https://urban-adventure-699qvj7wvr94c5v9q-8000.app.github.dev/";
     return "http://localhost:8000/";
 }
