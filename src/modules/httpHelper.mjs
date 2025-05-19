@@ -9,3 +9,7 @@ export function http_get_as_json(url) {
     return JSON.parse(http_get(url));
 }
 
+export function host(bool) {
+    if (bool) return "https://ominous-space-carnival-499xxjrrg77f5754-8000.app.github.dev/";
+    return "http://localhost:8000/";
+}

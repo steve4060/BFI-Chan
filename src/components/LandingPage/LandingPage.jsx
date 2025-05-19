@@ -1,6 +1,6 @@
 import './LandingPage.css';
 import Boardcard from '../Boardcard/Boardcard';
-import {http_get_as_json} from "../../modules/httpHelper.mjs";
+import {http_get_as_json, host} from "../../modules/httpHelper.mjs";
 
 function create_entry(board_term) {
     return (
@@ -22,7 +22,7 @@ function httpGet(url) {
 
 function LandingPage() {
 
-    const boards = http_get_as_json("http://localhost:8000/boards");
+    const boards = http_get_as_json(host(true) + "boards");
 
     return (
         <>
