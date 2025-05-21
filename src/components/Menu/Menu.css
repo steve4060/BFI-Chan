@@ -1,6 +1,5 @@
 div.menu {
-    position: relative;
-    width: 150px;
+    grid-area: Menu;
     display: flex;
     align-items: center;
     justify-content: center;

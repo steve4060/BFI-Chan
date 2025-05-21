@@ -13,14 +13,16 @@ function App() {
     const bord = http_get_as_json(url);
     const error = "Board " + params.board + " dos't exist";
     const fof = bord.length === 0;
-    const Board = fof ? <FourOFour error_masage={error} /> : <Boards />;
+    const Board = fof ? <FourOFour error_masage={error} /> : <Boards id={bord[0].id} />;
     const Name = fof ? "" : bord[0].title;
     return (
         <>
             <div>
                 <Banner boards={Name} />
-                <Menu />
-                {Board}
+                <div className="lol">
+                    <Menu />
+                    {Board}
+                </div>
             </div>
         </>
     )

@@ -3,7 +3,20 @@
     src: url(font/IosevkaNerdFontMono-Regular.ttf);
 }
 
-    body {
+body {
     font-family: Iosevka;
     background-color: #cc9918;
+    heigth: 100%;
+}
+
+.lol{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: 
+        "Menu boards boards boards boards"
+        "Menu boards boards boards boards"
+        "Menu boards boards boards boards"
+        "Menu boards boards boards boards";
 }

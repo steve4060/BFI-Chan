@@ -1,6 +1,4 @@
 div.banner {
-    position: relative;
-    background-color: #ddaa18;
     height: 150px;
     display: flex;
     align-items: center;
