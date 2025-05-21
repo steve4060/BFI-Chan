@@ -13,13 +13,6 @@ function create_entry(board_term) {
     )
 }
 
-function httpGet(url) {
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("GET", url, false);
-    xmlHttp.send();
-    return JSON.parse(xmlHttp.responseText);
-}
-
 function LandingPage() {
 
     const boards = http_get_as_json(host() + "boards");
