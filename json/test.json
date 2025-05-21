@@ -36,5 +36,23 @@
             "short_hand": "y",
             "desc": "This is a Board for Y topics"
         }
+    ],
+    "threads": [
+        {
+            "id": 1,
+            "title": "Hallo, Random",
+            "dist": "Hallo, Random. How are you?",
+            "command1": "I'm fine. Thanks for asking.",
+            "command2": "Me too",
+            "board_id": 1
+        },
+        {
+            "id": 2,
+            "title": "Help!",
+            "dist": "Can some one help me with Math?",
+            "command1": "Pleas no more Math!",
+            "command2": "I alsow need help with Math",
+            "board_id": 2
+        }
     ]
 }
