@@ -13,14 +13,17 @@ function create_entry(board_term) {
     )
 }
 
+
 function LandingPage() {
 
     const boards = http_get_as_json(host() + "boards");
 
     return (
         <>
-            <div>
-                <h1>Landing Page</h1>
+            <div className="mx-auto landingpage">
+                <div className="mx-auto landingpage">
+                    <img className="logl" src="/logo.png" />
+                </div>
                 <div className="card">
                     <h5 className="card-header">Was ist BFI-chan?</h5>
                     <div className="card-body">
