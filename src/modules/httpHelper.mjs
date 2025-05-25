@@ -5,6 +5,13 @@ export function http_get(url) {
     return xmlHttp.responseText;
 }
 
+export function http_post(url, post) {
+    const xmlHttp = new XMLHttpRequest()
+    xmlHttp.open("POST", url, false);
+    xmlHttp.send(post);
+    return xmlHttp.responseText;
+}
+
 export function http_get_as_json(url) {
     return JSON.parse(http_get(url));
 }
