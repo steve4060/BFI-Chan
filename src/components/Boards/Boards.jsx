@@ -17,13 +17,12 @@ function mk_tread (params) {
 }
 
 function Boards(params) {
-
-    const treads = http_get_as_json(host() + "threads?board_id=" + params.id);
+    const threads = http_get_as_json(host() + "threads?board_id=" + params.id);
 
     return (
         <>
             <div className="boards">
-                {treads.map(x => mk_tread(x))}
+                {threads.map(x => mk_tread(x))}
             </div>
         </>
     )
